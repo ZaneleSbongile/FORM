@@ -58,6 +58,53 @@ section p {
     margin-top: 10px;
 }
 
+form {
+    max-width: 500px;          /* Limits the form width */
+    margin: 30px auto;         /* Center the form */
+    padding: 20px;             /* Inner spacing */
+    background-color: #fff;    /* White background */
+    border-radius: 8px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;           /* Makes label appear on its own line */
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;               /* Full width */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;    /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;    /* Ensures padding doesn't break width */
+}
+
+textarea {
+    resize: vertical;          /* Allow vertical resize only */
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 /* Responsive typography */
 @media (max-width: 768px) {
     h1 {
