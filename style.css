@@ -15,5 +15,9 @@ h1{
 .head1{
     Color: Pink;
     Size: 20px;
-    text-align: centre;
+}
+
+.me{
+    text-align: center;
+    font-size: 30px;
 }
