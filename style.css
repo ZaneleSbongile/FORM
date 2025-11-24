@@ -6,7 +6,6 @@
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Body styling */
 body {
     background: #fdf6f0; /* soft, warm background */
     color: #333;
@@ -14,7 +13,6 @@ body {
     padding: 20px;
 }
 
-/* Main heading */
 h1 {
     text-align: center;
     font-size: 2.5rem;
@@ -23,7 +21,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-/* Sections */
 section {
     background: #fff;
     padding: 20px 30px;
@@ -38,7 +35,6 @@ section:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Section headers */
 .head1, .head2, .head3 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -46,7 +42,6 @@ section:hover {
     margin-bottom: 15px;
 }
 
-/* Paragraphs */
 section p {
     font-size: 1rem;
     color: #555;
@@ -69,7 +64,7 @@ form {
     max-width: 1000px;          /* Limits the form width */
     margin: 30px auto;         /* Center the form */
     padding: 20px;             /* Inner spacing */
-    background-color: #fff;    /* White background */
+    background-color: #fff;    
     border-radius: 8px;        /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft shadow */
     font-family: Arial, sans-serif;
@@ -112,7 +107,6 @@ button:hover {
     background-color: #FC6C85; /* Darker green on hover */
 }
 
-/* Responsive typography */
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
